@@ -108,6 +108,13 @@ func Start(ctx context.Context, conf *config.Config) {
 		var unixAddr *net.UnixAddr
 		var err error
 
+		// Clean up Unix Domain Socket file if it exists
+		if err := os.Remove(unixSocket); err != nil && !os.IsNotExist(err) {
+			log.Warnf("server: failed to remove existing unix socket file %s: %v", unixSocket, err)
+		} else {
+			log.Debugf("server: cleaned up existing unix socket file %s", unixSocket)
+		}
+
 		if unixAddr, err = net.ResolveUnixAddr("unix", unixSocket); err != nil {
 			log.Errorf("server: invalid unix socket (%s)", err)
 			return
