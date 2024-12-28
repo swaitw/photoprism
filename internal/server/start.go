@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"net"
 	"net/http"
+	"os"
 	"time"
 
 	"golang.org/x/crypto/acme/autocert"
@@ -180,6 +181,15 @@ func Start(ctx context.Context, conf *config.Config) {
 	err := server.Close()
 	if err != nil {
 		log.Errorf("server: shutdown failed (%s)", err)
+	}
+
+	// Clean up Unix Domain Socket file if it exists
+	if unixSocket := conf.HttpSocket(); unixSocket != "" {
+		if err := os.Remove(unixSocket); err != nil && !os.IsNotExist(err) {
+			log.Errorf("server: failed to remove unix socket file %s: %v", unixSocket, err)
+		} else {
+			log.Debugf("server: removed unix socket file %s", unixSocket)
+		}
 	}
 }
 
