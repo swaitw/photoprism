@@ -89,7 +89,7 @@ msgstr "2FA"
 msgid "4 hours"
 msgstr "4 小時"
 
-#: src/component/dialog/share.vue:65
+#: src/component/dialog/share.vue:57
 msgid "A click will copy it to your clipboard."
 msgstr "點擊以複製到剪貼簿。"
 
@@ -109,7 +109,7 @@ msgid "Access Token"
 msgstr "訪問令牌"
 
 #: src/component/navigation.vue:98 src/component/navigation.vue:1921
-#: src/component/service/dialog/upload.vue:75 src/model/service.js:94
+#: src/component/service/dialog/upload.vue:65 src/model/service.js:94
 #: src/model/user.js:169 src/page/settings.vue:85
 #: src/page/settings/general.vue:496
 msgid "Account"
@@ -179,7 +179,7 @@ msgstr "新增相簿"
 msgid "Add files to your library via Web Upload."
 msgstr "從網頁上傳檔案到收藏庫。"
 
-#: src/component/dialog/share.vue:57
+#: src/component/dialog/share.vue:56
 msgid "Add Link"
 msgstr "新增連結"
 
@@ -323,7 +323,7 @@ msgstr "所有來源"
 msgid "All Years"
 msgstr "所有年份"
 
-#: src/component/dialog/share.vue:67
+#: src/component/dialog/share.vue:59
 msgid "Alternatively, you can upload files directly to WebDAV servers like Nextcloud."
 msgstr "或者，你也可以直接使用WebDAV（例如 NextCloud）等服務上傳檔案。"
 
@@ -331,7 +331,7 @@ msgstr "或者，你也可以直接使用WebDAV（例如 NextCloud）等服務�
 msgid "Altitude"
 msgstr "高度"
 
-#: src/component/photo/dialog/edit/details.vue:264
+#: src/component/photo/dialog/edit/details.vue:246
 msgid "Altitude (m)"
 msgstr "高度（公尺）"
 
@@ -352,7 +352,7 @@ msgstr "動態圖片"
 msgid "Animation"
 msgstr "動畫"
 
-#: src/component/dialog/share.vue:66
+#: src/component/dialog/share.vue:58
 msgid "Any private photos and videos remain private and won't be shared."
 msgstr "所有私人相片跟影片都會保持私人，不會被分享。"
 
@@ -422,7 +422,7 @@ msgstr "確定要永久刪除這個檔案嗎？"
 msgid "Are you sure?"
 msgstr "你確定嗎？"
 
-#: src/component/photo/dialog/edit/details.vue:458
+#: src/component/photo/dialog/edit/details.vue:517
 msgid "Artist"
 msgstr "作者"
 
@@ -526,7 +526,7 @@ msgstr "當您開始使用我們提供的軟體及服務時，即表示您同意
 msgid "Calendar"
 msgstr "日曆"
 
-#: src/component/photo/dialog/edit/details.vue:331
+#: src/component/photo/dialog/edit/details.vue:313
 #: src/component/photo/toolbar.vue:308 src/component/photo/view/cards.vue:510
 #: src/component/photo/view/list.vue:139
 msgid "Camera"
@@ -570,11 +570,15 @@ msgstr "無法選取更多項目"
 #: src/component/service/dialog/add.vue:17
 #: src/component/service/dialog/edit.vue:104
 #: src/component/service/dialog/remove.vue:9
-#: src/component/service/dialog/upload.vue:22 src/locales.js:26
+#: src/component/service/dialog/upload.vue:21 src/locales.js:26
 #: src/page/auth/login.vue:32 src/page/connect.vue:38
 #: src/page/library/import.vue:40 src/page/library/index.vue:25
 msgid "Cancel"
 msgstr "取消"
+
+#: src/component/photo/dialog/edit/details.vue:454
+msgid "Caption"
+msgstr ""
 
 #: src/component/photo/toolbar.vue:91 src/component/photo/toolbar.vue:97
 msgid "Cards"
@@ -658,7 +662,7 @@ msgstr "个人"
 #: src/component/account/passcode.vue:116
 #: src/component/account/passcode.vue:131 src/component/account/passcode.vue:16
 #: src/component/account/passcode.vue:23 src/component/account/passcode.vue:10
-#: src/component/dialog/reload.vue:15 src/component/dialog/share.vue:75
+#: src/component/dialog/reload.vue:15 src/component/dialog/share.vue:67
 #: src/component/dialog/webdav.vue:38
 #: src/component/photo/dialog/edit/details.vue:111
 #: src/component/photo/toolbar.vue:240 src/component/photo/viewer.vue:43
@@ -760,7 +764,7 @@ msgstr "已複製到剪貼簿"
 msgid "Copy"
 msgstr "複製"
 
-#: src/component/photo/dialog/edit/details.vue:478
+#: src/component/photo/dialog/edit/details.vue:497
 msgid "Copyright"
 msgstr "版權"
 
@@ -768,7 +772,7 @@ msgstr "版權"
 msgid "Couldn't find anything."
 msgstr "找不到任何東西。"
 
-#: src/component/photo/dialog/edit/details.vue:238
+#: src/component/photo/dialog/edit/details.vue:219
 #: src/component/photo/toolbar.vue:280 src/page/settings/account.vue:630
 msgid "Country"
 msgstr "國家"
@@ -825,7 +829,7 @@ msgstr "每日"
 msgid "Database Backups"
 msgstr "数据库备份"
 
-#: src/component/photo/dialog/edit/details.vue:110
+#: src/component/photo/dialog/edit/details.vue:90
 #: src/page/settings/account.vue:501
 msgid "Day"
 msgstr "日"
@@ -852,7 +856,7 @@ msgstr "預設資料夾"
 
 #: src/dialog/admin/sessions/remove.vue:12 src/dialog/admin/users/remove.vue:12
 #: src/component/album/clipboard.vue:95
-#: src/component/album/dialog/delete.vue:12 src/component/dialog/share.vue:200
+#: src/component/album/dialog/delete.vue:12 src/component/dialog/share.vue:177
 #: src/component/file/dialog/delete.vue:12 src/component/label/clipboard.vue:58
 #: src/component/label/dialog/delete.vue:12
 #: src/component/photo/clipboard.vue:168
@@ -873,7 +877,6 @@ msgid "Delete orphaned index entries, sidecar files and thumbnails."
 msgstr "删除孤儿索引条目、副卡文件和缩略图。"
 
 #: src/component/album/dialog/edit.vue:112
-#: src/component/photo/dialog/edit/details.vue:536
 #: src/component/photo/view/cards.vue:455 src/page/albums.vue:456
 msgid "Description"
 msgstr "描述"
@@ -1168,11 +1171,11 @@ msgstr "測試功能"
 msgid "Expires"
 msgstr "有效期限"
 
-#: src/component/photo/dialog/edit/details.vue:376
+#: src/component/photo/dialog/edit/details.vue:358
 msgid "Exposure"
 msgstr "曝光"
 
-#: src/component/photo/dialog/edit/details.vue:420
+#: src/component/photo/dialog/edit/details.vue:402
 msgid "F Number"
 msgstr "F值"
 
@@ -1274,14 +1277,14 @@ msgstr "連續檔名例如 'IMG_1234 (2)' 及 'IMG_1234 (3)' 會被當作同一�
 msgid "First page"
 msgstr "第一頁"
 
-#: src/component/photo/dialog/edit/details.vue:438
+#: src/component/photo/dialog/edit/details.vue:420
 msgid "Focal Length"
 msgstr "焦距"
 
 #: src/component/photo/dialog/edit/info.vue:29
 #: src/component/service/dialog/edit.vue:264
 #: src/component/service/dialog/edit.vue:270
-#: src/component/service/dialog/upload.vue:103 src/model/folder.js:199
+#: src/component/service/dialog/upload.vue:90 src/model/folder.js:199
 #: src/page/library/browse.vue:62
 msgid "Folder"
 msgstr "資料夾"
@@ -1549,7 +1552,7 @@ msgstr "JPEG大小限制：%{n} px"
 msgid "JPEGs and thumbnails are automatically rendered as needed."
 msgstr "JPEGs 跟 縮圖 在需要的時候會自動生成。"
 
-#: src/component/photo/dialog/edit/details.vue:557
+#: src/component/photo/dialog/edit/details.vue:559
 msgid "Keywords"
 msgstr "關鍵字"
 
@@ -1596,7 +1599,7 @@ msgstr "上次同步"
 msgid "Last Used"
 msgstr "最後使用"
 
-#: src/component/photo/dialog/edit/details.vue:288
+#: src/component/photo/dialog/edit/details.vue:270
 #: src/component/photo/dialog/edit/info.vue:153
 msgid "Latitude"
 msgstr "緯度"
@@ -1616,7 +1619,7 @@ msgstr "了解更多"
 msgid "Legal Information"
 msgstr "法律資訊"
 
-#: src/component/photo/dialog/edit/details.vue:394
+#: src/component/photo/dialog/edit/details.vue:376
 #: src/component/photo/view/cards.vue:521
 msgid "Lens"
 msgstr "鏡頭"
@@ -1629,7 +1632,7 @@ msgstr "收藏庫"
 
 #: src/app/routes.js:66 src/component/navigation.vue:382
 #: src/component/navigation.vue:380 src/component/navigation.vue:34
-#: src/component/photo/dialog/edit/details.vue:499 src/page/about/license.vue:4
+#: src/component/photo/dialog/edit/details.vue:538 src/page/about/license.vue:4
 msgid "License"
 msgstr "授權"
 
@@ -1683,7 +1686,7 @@ msgstr "載入中..."
 msgid "Local"
 msgstr "当地"
 
-#: src/component/photo/dialog/edit/details.vue:185 src/options/options.js:35
+#: src/component/photo/dialog/edit/details.vue:167 src/options/options.js:35
 msgid "Local Time"
 msgstr "本地時間"
 
@@ -1716,7 +1719,7 @@ msgstr "登出"
 msgid "Logs"
 msgstr "日誌"
 
-#: src/component/photo/dialog/edit/details.vue:312
+#: src/component/photo/dialog/edit/details.vue:294
 #: src/component/photo/dialog/edit/info.vue:161
 msgid "Longitude"
 msgstr "經度"
@@ -1809,7 +1812,7 @@ msgstr "回憶時刻"
 msgid "Monochrome"
 msgstr "黑白"
 
-#: src/component/photo/dialog/edit/details.vue:137
+#: src/component/photo/dialog/edit/details.vue:117
 #: src/component/photo/toolbar.vue:414 src/page/settings/account.vue:527
 msgid "Month"
 msgstr "月"
@@ -1992,7 +1995,7 @@ msgstr "注意："
 msgid "Note: Only WebDAV servers, like Nextcloud or PhotoPrism, can be configured as remote service for backup and file upload."
 msgstr "注意：只能將 WebDAV 伺服器（如Nextcloud或PhotoPrism）設定為遠端服務，以進行備份和檔案上傳。"
 
-#: src/component/photo/dialog/edit/details.vue:578
+#: src/component/photo/dialog/edit/details.vue:580
 msgid "Notes"
 msgstr "備註"
 
@@ -2146,7 +2149,7 @@ msgstr "密碼已更改"
 msgid "People"
 msgstr "人"
 
-#: src/component/dialog/share.vue:64
+#: src/component/dialog/share.vue:56
 msgid "People you share a link with will be able to view public contents."
 msgstr "擁有連結的人可以看到公開內容。"
 
@@ -2486,7 +2489,7 @@ msgid "Satellite"
 msgstr "衛星"
 
 #: src/dialog/admin/users/edit.vue:98 src/component/account/password.vue:31
-#: src/component/album/dialog/edit.vue:42 src/component/dialog/share.vue:52
+#: src/component/album/dialog/edit.vue:42 src/component/dialog/share.vue:45
 #: src/component/label/dialog/edit.vue:26
 #: src/component/people/dialog/edit.vue:27
 #: src/component/service/dialog/edit.vue:107
@@ -2525,7 +2528,7 @@ msgstr "搜尋並在地圖上顯示圖片。"
 msgid "Season"
 msgstr "季節"
 
-#: src/component/dialog/share.vue:181
+#: src/component/dialog/share.vue:160
 msgid "Secret"
 msgstr "秘密"
 
@@ -2607,7 +2610,7 @@ msgid "Settings saved"
 msgstr "設定已儲存"
 
 #: src/component/account/passcode.vue:30 src/component/account/passcode.vue:19
-#: src/component/service/dialog/upload.vue:25
+#: src/component/service/dialog/upload.vue:24
 msgid "Setup"
 msgstr "設定"
 
@@ -2762,7 +2765,7 @@ msgstr "儲存空間"
 msgid "Streets"
 msgstr "街"
 
-#: src/component/photo/dialog/edit/details.vue:518 src/model/subject.js:158
+#: src/component/photo/dialog/edit/details.vue:476 src/model/subject.js:158
 msgid "Subject"
 msgstr "主題"
 
@@ -2846,11 +2849,11 @@ msgstr "主題"
 msgid "This mounts the originals folder as a network drive and allows you to open, edit, and delete files from your computer or smartphone as if they were local."
 msgstr "這會將\"originals\"資料夾安裝為網絡硬碟，並允許您從電腦或智慧型手機中打開，編輯和刪除文件，就像它們是本地文件一樣。"
 
-#: src/component/photo/dialog/edit/details.vue:185
+#: src/component/photo/dialog/edit/details.vue:167
 msgid "Time UTC"
 msgstr "UTC 時間"
 
-#: src/component/photo/dialog/edit/details.vue:211
+#: src/component/photo/dialog/edit/details.vue:193
 msgid "Time Zone"
 msgstr "時區"
 
@@ -2863,7 +2866,7 @@ msgctxt "Account"
 msgid "Title"
 msgstr "標題"
 
-#: src/component/photo/dialog/edit/details.vue:87
+#: src/component/photo/dialog/edit/details.vue:436
 msgctxt "Photo"
 msgid "Title"
 msgstr "標題"
@@ -2908,7 +2911,7 @@ msgstr "今天"
 msgid "Toggle View"
 msgstr "切換檢視"
 
-#: src/component/dialog/share.vue:182
+#: src/component/dialog/share.vue:161
 msgid "Token"
 msgstr "令牌"
 
@@ -3032,7 +3035,7 @@ msgstr "立即升級"
 #: src/component/album/toolbar.vue:210 src/component/dialog/upload.vue:8
 #: src/component/dialog/upload.vue:61 src/component/navigation.vue:1957
 #: src/component/photo/toolbar.vue:194
-#: src/component/service/dialog/upload.vue:28 src/page/albums.vue:129
+#: src/component/service/dialog/upload.vue:27 src/page/albums.vue:129
 #: src/page/library/import.vue:44 src/page/settings/general.vue:232
 #: src/page/settings/services.vue:27
 msgid "Upload"
@@ -3080,7 +3083,7 @@ msgstr "上傳…"
 msgid "Uploads that may contain such images will be rejected automatically."
 msgstr "上傳此類圖像將可能被自動拒絕。"
 
-#: src/component/dialog/share.vue:131 src/page/settings/account.vue:656
+#: src/component/dialog/share.vue:112 src/page/settings/account.vue:656
 msgid "URL"
 msgstr "網址"
 
@@ -3198,7 +3201,7 @@ msgstr "WebDAV客戶端可以使用以下URL連接到PhotoPrism："
 msgid "WebDAV clients, like Microsoft’s Windows Explorer or Apple's Finder, can connect directly to PhotoPrism."
 msgstr "WebDAV客戶端（例如Microsoft的Windows資源管理器或Apple的Finder）可以直接連接到PhotoPrism。"
 
-#: src/component/dialog/share.vue:72 src/component/service/dialog/upload.vue:4
+#: src/component/dialog/share.vue:64 src/component/service/dialog/upload.vue:5
 msgid "WebDAV Upload"
 msgstr "WebDAV上傳"
 
@@ -3206,7 +3209,7 @@ msgstr "WebDAV上傳"
 msgid "White"
 msgstr "白色"
 
-#: src/component/photo/dialog/edit/details.vue:163
+#: src/component/photo/dialog/edit/details.vue:144
 #: src/component/photo/toolbar.vue:388 src/page/albums.vue:194
 #: src/page/settings/account.vue:553
 msgid "Year"

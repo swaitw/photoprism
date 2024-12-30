@@ -86,7 +86,7 @@ msgstr "2FA"
 msgid "4 hours"
 msgstr "4 tuntia"
 
-#: src/component/dialog/share.vue:65
+#: src/component/dialog/share.vue:57
 msgid "A click will copy it to your clipboard."
 msgstr "Napsauttamalla sitä voit kopioida sen leikepöydälle."
 
@@ -106,7 +106,7 @@ msgid "Access Token"
 msgstr "Access Token"
 
 #: src/component/navigation.vue:98 src/component/navigation.vue:1921
-#: src/component/service/dialog/upload.vue:75 src/model/service.js:94
+#: src/component/service/dialog/upload.vue:65 src/model/service.js:94
 #: src/model/user.js:169 src/page/settings.vue:85
 #: src/page/settings/general.vue:496
 msgid "Account"
@@ -176,7 +176,7 @@ msgstr "Lisää albumi"
 msgid "Add files to your library via Web Upload."
 msgstr "Lisää tiedostoja kirjastoosi verkkoselaimen kautta."
 
-#: src/component/dialog/share.vue:57
+#: src/component/dialog/share.vue:56
 msgid "Add Link"
 msgstr "Lisää linkki"
 
@@ -320,7 +320,7 @@ msgstr "Kaikki alkuperäiset"
 msgid "All Years"
 msgstr "Kaikki vuodet"
 
-#: src/component/dialog/share.vue:67
+#: src/component/dialog/share.vue:59
 msgid "Alternatively, you can upload files directly to WebDAV servers like Nextcloud."
 msgstr "Vaihtoehtoisesti voit ladata tiedostoja suoraan WebDAV-palvelimille, kuten Nextcloudiin."
 
@@ -328,7 +328,7 @@ msgstr "Vaihtoehtoisesti voit ladata tiedostoja suoraan WebDAV-palvelimille, kut
 msgid "Altitude"
 msgstr "Korkeus"
 
-#: src/component/photo/dialog/edit/details.vue:264
+#: src/component/photo/dialog/edit/details.vue:246
 msgid "Altitude (m)"
 msgstr "Korkeus (m)"
 
@@ -349,7 +349,7 @@ msgstr "Animoitu"
 msgid "Animation"
 msgstr "Animaatio"
 
-#: src/component/dialog/share.vue:66
+#: src/component/dialog/share.vue:58
 msgid "Any private photos and videos remain private and won't be shared."
 msgstr "Kaikki yksityiset kuvat ja videot pysyvät yksityisinä, eikä niitä jaeta."
 
@@ -419,7 +419,7 @@ msgstr "Haluatko varmasti poistaa tämän tiedoston pysyvästi?"
 msgid "Are you sure?"
 msgstr "Oletko varma?"
 
-#: src/component/photo/dialog/edit/details.vue:458
+#: src/component/photo/dialog/edit/details.vue:517
 msgid "Artist"
 msgstr "Tekijä"
 
@@ -523,7 +523,7 @@ msgstr "Käyttämällä tarjoamiamme ohjelmistoja ja palveluita hyväksyt käytt
 msgid "Calendar"
 msgstr "Kalenteri"
 
-#: src/component/photo/dialog/edit/details.vue:331
+#: src/component/photo/dialog/edit/details.vue:313
 #: src/component/photo/toolbar.vue:308 src/component/photo/view/cards.vue:510
 #: src/component/photo/view/list.vue:139
 msgid "Camera"
@@ -567,11 +567,15 @@ msgstr "Ei voi valita enempää kohteita"
 #: src/component/service/dialog/add.vue:17
 #: src/component/service/dialog/edit.vue:104
 #: src/component/service/dialog/remove.vue:9
-#: src/component/service/dialog/upload.vue:22 src/locales.js:26
+#: src/component/service/dialog/upload.vue:21 src/locales.js:26
 #: src/page/auth/login.vue:32 src/page/connect.vue:38
 #: src/page/library/import.vue:40 src/page/library/index.vue:25
 msgid "Cancel"
 msgstr "Peruuta"
+
+#: src/component/photo/dialog/edit/details.vue:454
+msgid "Caption"
+msgstr ""
 
 #: src/component/photo/toolbar.vue:91 src/component/photo/toolbar.vue:97
 msgid "Cards"
@@ -655,7 +659,7 @@ msgstr "Asiakkaan valtakirjat"
 #: src/component/account/passcode.vue:116
 #: src/component/account/passcode.vue:131 src/component/account/passcode.vue:16
 #: src/component/account/passcode.vue:23 src/component/account/passcode.vue:10
-#: src/component/dialog/reload.vue:15 src/component/dialog/share.vue:75
+#: src/component/dialog/reload.vue:15 src/component/dialog/share.vue:67
 #: src/component/dialog/webdav.vue:38
 #: src/component/photo/dialog/edit/details.vue:111
 #: src/component/photo/toolbar.vue:240 src/component/photo/viewer.vue:43
@@ -757,7 +761,7 @@ msgstr "Kopioitu leikepöydälle"
 msgid "Copy"
 msgstr "Kopio"
 
-#: src/component/photo/dialog/edit/details.vue:478
+#: src/component/photo/dialog/edit/details.vue:497
 msgid "Copyright"
 msgstr "Tekijänoikeus"
 
@@ -765,7 +769,7 @@ msgstr "Tekijänoikeus"
 msgid "Couldn't find anything."
 msgstr "En löytänyt mitään."
 
-#: src/component/photo/dialog/edit/details.vue:238
+#: src/component/photo/dialog/edit/details.vue:219
 #: src/component/photo/toolbar.vue:280 src/page/settings/account.vue:630
 msgid "Country"
 msgstr "Maa"
@@ -822,7 +826,7 @@ msgstr "Päivittäin"
 msgid "Database Backups"
 msgstr "Tietokannan varmuuskopiot"
 
-#: src/component/photo/dialog/edit/details.vue:110
+#: src/component/photo/dialog/edit/details.vue:90
 #: src/page/settings/account.vue:501
 msgid "Day"
 msgstr "Päivä"
@@ -849,7 +853,7 @@ msgstr "Oletuskansio"
 
 #: src/dialog/admin/sessions/remove.vue:12 src/dialog/admin/users/remove.vue:12
 #: src/component/album/clipboard.vue:95
-#: src/component/album/dialog/delete.vue:12 src/component/dialog/share.vue:200
+#: src/component/album/dialog/delete.vue:12 src/component/dialog/share.vue:177
 #: src/component/file/dialog/delete.vue:12 src/component/label/clipboard.vue:58
 #: src/component/label/dialog/delete.vue:12
 #: src/component/photo/clipboard.vue:168
@@ -870,7 +874,6 @@ msgid "Delete orphaned index entries, sidecar files and thumbnails."
 msgstr "Poistaa orpoja indeksimerkintöjä, sivutiedostoja ja pikkukuvia."
 
 #: src/component/album/dialog/edit.vue:112
-#: src/component/photo/dialog/edit/details.vue:536
 #: src/component/photo/view/cards.vue:455 src/page/albums.vue:456
 msgid "Description"
 msgstr "Kuvaus"
@@ -1165,11 +1168,11 @@ msgstr "Kokeelliset ominaisuudet"
 msgid "Expires"
 msgstr "Vanhenee"
 
-#: src/component/photo/dialog/edit/details.vue:376
+#: src/component/photo/dialog/edit/details.vue:358
 msgid "Exposure"
 msgstr "Valotus"
 
-#: src/component/photo/dialog/edit/details.vue:420
+#: src/component/photo/dialog/edit/details.vue:402
 msgid "F Number"
 msgstr "Aukko"
 
@@ -1271,14 +1274,14 @@ msgstr "Tiedostot, joilla on peräkkäiset nimet, kuten 'IMG_1234 (2)' ja 'IMG_1
 msgid "First page"
 msgstr "Ensimmäinen sivu"
 
-#: src/component/photo/dialog/edit/details.vue:438
+#: src/component/photo/dialog/edit/details.vue:420
 msgid "Focal Length"
 msgstr "Polttoväli"
 
 #: src/component/photo/dialog/edit/info.vue:29
 #: src/component/service/dialog/edit.vue:264
 #: src/component/service/dialog/edit.vue:270
-#: src/component/service/dialog/upload.vue:103 src/model/folder.js:199
+#: src/component/service/dialog/upload.vue:90 src/model/folder.js:199
 #: src/page/library/browse.vue:62
 msgid "Folder"
 msgstr "Kansio"
@@ -1546,7 +1549,7 @@ msgstr "JPEG-kokorajoitus: %{n}px"
 msgid "JPEGs and thumbnails are automatically rendered as needed."
 msgstr "JPEG-tiedostot ja pikkukuvat renderöidään automaattisesti tarpeen mukaan."
 
-#: src/component/photo/dialog/edit/details.vue:557
+#: src/component/photo/dialog/edit/details.vue:559
 msgid "Keywords"
 msgstr "Avainsanat"
 
@@ -1593,7 +1596,7 @@ msgstr "Viimeisin synkronointi"
 msgid "Last Used"
 msgstr "Viimeksi käytetty"
 
-#: src/component/photo/dialog/edit/details.vue:288
+#: src/component/photo/dialog/edit/details.vue:270
 #: src/component/photo/dialog/edit/info.vue:153
 msgid "Latitude"
 msgstr "Leveysaste"
@@ -1613,7 +1616,7 @@ msgstr "Lue lisää"
 msgid "Legal Information"
 msgstr "Oikeudelliset tiedot"
 
-#: src/component/photo/dialog/edit/details.vue:394
+#: src/component/photo/dialog/edit/details.vue:376
 #: src/component/photo/view/cards.vue:521
 msgid "Lens"
 msgstr "Objektiivi"
@@ -1626,7 +1629,7 @@ msgstr "Kirjasto"
 
 #: src/app/routes.js:66 src/component/navigation.vue:382
 #: src/component/navigation.vue:380 src/component/navigation.vue:34
-#: src/component/photo/dialog/edit/details.vue:499 src/page/about/license.vue:4
+#: src/component/photo/dialog/edit/details.vue:538 src/page/about/license.vue:4
 msgid "License"
 msgstr "Lisenssi"
 
@@ -1680,7 +1683,7 @@ msgstr "Ladataan..."
 msgid "Local"
 msgstr "Paikallinen"
 
-#: src/component/photo/dialog/edit/details.vue:185 src/options/options.js:35
+#: src/component/photo/dialog/edit/details.vue:167 src/options/options.js:35
 msgid "Local Time"
 msgstr "Paikallinen aika"
 
@@ -1713,7 +1716,7 @@ msgstr "Kirjaudu ulos"
 msgid "Logs"
 msgstr "Lokit"
 
-#: src/component/photo/dialog/edit/details.vue:312
+#: src/component/photo/dialog/edit/details.vue:294
 #: src/component/photo/dialog/edit/info.vue:161
 msgid "Longitude"
 msgstr "Pituusaste"
@@ -1806,7 +1809,7 @@ msgstr "Hetket"
 msgid "Monochrome"
 msgstr "Yksivärinen"
 
-#: src/component/photo/dialog/edit/details.vue:137
+#: src/component/photo/dialog/edit/details.vue:117
 #: src/component/photo/toolbar.vue:414 src/page/settings/account.vue:527
 msgid "Month"
 msgstr "Kuukausi"
@@ -1989,7 +1992,7 @@ msgstr "Huomautus:"
 msgid "Note: Only WebDAV servers, like Nextcloud or PhotoPrism, can be configured as remote service for backup and file upload."
 msgstr "Huomautus: Vain WebDAV-palvelimet, kuten Nextcloud tai PhotoPrism, voidaan määrittää etäpalveluiksi varmuuskopiointia ja tiedostojen lataamista varten."
 
-#: src/component/photo/dialog/edit/details.vue:578
+#: src/component/photo/dialog/edit/details.vue:580
 msgid "Notes"
 msgstr "Huomautukset"
 
@@ -2143,7 +2146,7 @@ msgstr "Salasana vaihdettu"
 msgid "People"
 msgstr "Ihmiset"
 
-#: src/component/dialog/share.vue:64
+#: src/component/dialog/share.vue:56
 msgid "People you share a link with will be able to view public contents."
 msgstr "Ihmiset, joille jaat linkin, voivat tarkastella julkista sisältöä."
 
@@ -2483,7 +2486,7 @@ msgid "Satellite"
 msgstr "Satelliitti"
 
 #: src/dialog/admin/users/edit.vue:98 src/component/account/password.vue:31
-#: src/component/album/dialog/edit.vue:42 src/component/dialog/share.vue:52
+#: src/component/album/dialog/edit.vue:42 src/component/dialog/share.vue:45
 #: src/component/label/dialog/edit.vue:26
 #: src/component/people/dialog/edit.vue:27
 #: src/component/service/dialog/edit.vue:107
@@ -2522,7 +2525,7 @@ msgstr "Etsi ja näytä valokuvia kartalla."
 msgid "Season"
 msgstr "Kausi"
 
-#: src/component/dialog/share.vue:181
+#: src/component/dialog/share.vue:160
 msgid "Secret"
 msgstr "Salainen"
 
@@ -2604,7 +2607,7 @@ msgid "Settings saved"
 msgstr "Asetukset tallennettu"
 
 #: src/component/account/passcode.vue:30 src/component/account/passcode.vue:19
-#: src/component/service/dialog/upload.vue:25
+#: src/component/service/dialog/upload.vue:24
 msgid "Setup"
 msgstr "Määritä"
 
@@ -2759,7 +2762,7 @@ msgstr "Tallennus"
 msgid "Streets"
 msgstr "Kadut"
 
-#: src/component/photo/dialog/edit/details.vue:518 src/model/subject.js:158
+#: src/component/photo/dialog/edit/details.vue:476 src/model/subject.js:158
 msgid "Subject"
 msgstr "Aihe"
 
@@ -2843,11 +2846,11 @@ msgstr "Teema"
 msgid "This mounts the originals folder as a network drive and allows you to open, edit, and delete files from your computer or smartphone as if they were local."
 msgstr "Tämä liittää alkuperäiskansion verkkoasemaksi ja antaa sinun avata, muokata ja poistaa tiedostoja tietokoneeltasi tai älypuhelimelta ikään kuin ne olisivat paikallisia."
 
-#: src/component/photo/dialog/edit/details.vue:185
+#: src/component/photo/dialog/edit/details.vue:167
 msgid "Time UTC"
 msgstr "Aika UTC-muodossa"
 
-#: src/component/photo/dialog/edit/details.vue:211
+#: src/component/photo/dialog/edit/details.vue:193
 msgid "Time Zone"
 msgstr "Aikavyöhyke"
 
@@ -2860,7 +2863,7 @@ msgctxt "Account"
 msgid "Title"
 msgstr "Otsikko"
 
-#: src/component/photo/dialog/edit/details.vue:87
+#: src/component/photo/dialog/edit/details.vue:436
 msgctxt "Photo"
 msgid "Title"
 msgstr "Otsikko"
@@ -2905,7 +2908,7 @@ msgstr "Tänään"
 msgid "Toggle View"
 msgstr "Vaihda näkymää"
 
-#: src/component/dialog/share.vue:182
+#: src/component/dialog/share.vue:161
 msgid "Token"
 msgstr "Merkki"
 
@@ -3029,7 +3032,7 @@ msgstr "Päivitä nyt"
 #: src/component/album/toolbar.vue:210 src/component/dialog/upload.vue:8
 #: src/component/dialog/upload.vue:61 src/component/navigation.vue:1957
 #: src/component/photo/toolbar.vue:194
-#: src/component/service/dialog/upload.vue:28 src/page/albums.vue:129
+#: src/component/service/dialog/upload.vue:27 src/page/albums.vue:129
 #: src/page/library/import.vue:44 src/page/settings/general.vue:232
 #: src/page/settings/services.vue:27
 msgid "Upload"
@@ -3077,7 +3080,7 @@ msgstr "Ladataan uudelleen…"
 msgid "Uploads that may contain such images will be rejected automatically."
 msgstr "Tällaisia kuvia mahdollisesti sisältävät lataukset hylätään automaattisesti."
 
-#: src/component/dialog/share.vue:131 src/page/settings/account.vue:656
+#: src/component/dialog/share.vue:112 src/page/settings/account.vue:656
 msgid "URL"
 msgstr "URL-osoite"
 
@@ -3195,7 +3198,7 @@ msgstr "WebDAV-ohjelmat voivat muodostaa yhteyden PhotoPrismiin käyttämällä 
 msgid "WebDAV clients, like Microsoft’s Windows Explorer or Apple's Finder, can connect directly to PhotoPrism."
 msgstr "WebDAV-ohjelmat, kuten Microsoftin Windows Explorer tai Applen Finder, voivat muodostaa yhteyden suoraan PhotoPrismiin."
 
-#: src/component/dialog/share.vue:72 src/component/service/dialog/upload.vue:4
+#: src/component/dialog/share.vue:64 src/component/service/dialog/upload.vue:5
 msgid "WebDAV Upload"
 msgstr "WebDAV-lähetys"
 
@@ -3203,7 +3206,7 @@ msgstr "WebDAV-lähetys"
 msgid "White"
 msgstr "Valkoinen"
 
-#: src/component/photo/dialog/edit/details.vue:163
+#: src/component/photo/dialog/edit/details.vue:144
 #: src/component/photo/toolbar.vue:388 src/page/albums.vue:194
 #: src/page/settings/account.vue:553
 msgid "Year"

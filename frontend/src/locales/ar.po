@@ -89,7 +89,7 @@ msgstr "2FA"
 msgid "4 hours"
 msgstr "4 ساعات"
 
-#: src/component/dialog/share.vue:65
+#: src/component/dialog/share.vue:57
 msgid "A click will copy it to your clipboard."
 msgstr "نقرة للنسخ إلى الحافظة الخاصة بك."
 
@@ -109,7 +109,7 @@ msgid "Access Token"
 msgstr "رمز وصول"
 
 #: src/component/navigation.vue:98 src/component/navigation.vue:1921
-#: src/component/service/dialog/upload.vue:75 src/model/service.js:94
+#: src/component/service/dialog/upload.vue:65 src/model/service.js:94
 #: src/model/user.js:169 src/page/settings.vue:85
 #: src/page/settings/general.vue:496
 msgid "Account"
@@ -179,7 +179,7 @@ msgstr "أضف البوم"
 msgid "Add files to your library via Web Upload."
 msgstr "أضف ملفات إلى مكتبتك عبر تحميل الويب."
 
-#: src/component/dialog/share.vue:57
+#: src/component/dialog/share.vue:56
 msgid "Add Link"
 msgstr "إضافة رابط"
 
@@ -323,7 +323,7 @@ msgstr "جميع النسخ الأصلية"
 msgid "All Years"
 msgstr "جميع السنوات"
 
-#: src/component/dialog/share.vue:67
+#: src/component/dialog/share.vue:59
 msgid "Alternatively, you can upload files directly to WebDAV servers like Nextcloud."
 msgstr "بدلاً من ذلك ، يمكنك تحميل الملفات مباشرة إلى خوادم WebDAV مثل Nextcloud."
 
@@ -331,7 +331,7 @@ msgstr "بدلاً من ذلك ، يمكنك تحميل الملفات مباش�
 msgid "Altitude"
 msgstr "ارتفاع"
 
-#: src/component/photo/dialog/edit/details.vue:264
+#: src/component/photo/dialog/edit/details.vue:246
 msgid "Altitude (m)"
 msgstr "الارتفاع (م)"
 
@@ -352,7 +352,7 @@ msgstr "متحرك"
 msgid "Animation"
 msgstr "حركة"
 
-#: src/component/dialog/share.vue:66
+#: src/component/dialog/share.vue:58
 msgid "Any private photos and videos remain private and won't be shared."
 msgstr "أي صور ومقاطع فيديو خاصة تبقى خاصة ولن تتم مشاركتها."
 
@@ -422,7 +422,7 @@ msgstr "هل أنت متأكد أنك تريد حذف هذا الملف نهائ
 msgid "Are you sure?"
 msgstr "هل أنت واثق؟"
 
-#: src/component/photo/dialog/edit/details.vue:458
+#: src/component/photo/dialog/edit/details.vue:517
 msgid "Artist"
 msgstr "فنان"
 
@@ -526,7 +526,7 @@ msgstr "باستخدام البرامج والخدمات التي نقدمها �
 msgid "Calendar"
 msgstr "تقويم"
 
-#: src/component/photo/dialog/edit/details.vue:331
+#: src/component/photo/dialog/edit/details.vue:313
 #: src/component/photo/toolbar.vue:308 src/component/photo/view/cards.vue:510
 #: src/component/photo/view/list.vue:139
 msgid "Camera"
@@ -570,11 +570,15 @@ msgstr "لا يمكن تحديد المزيد من العناصر"
 #: src/component/service/dialog/add.vue:17
 #: src/component/service/dialog/edit.vue:104
 #: src/component/service/dialog/remove.vue:9
-#: src/component/service/dialog/upload.vue:22 src/locales.js:26
+#: src/component/service/dialog/upload.vue:21 src/locales.js:26
 #: src/page/auth/login.vue:32 src/page/connect.vue:38
 #: src/page/library/import.vue:40 src/page/library/index.vue:25
 msgid "Cancel"
 msgstr "يلغي"
+
+#: src/component/photo/dialog/edit/details.vue:454
+msgid "Caption"
+msgstr ""
 
 #: src/component/photo/toolbar.vue:91 src/component/photo/toolbar.vue:97
 msgid "Cards"
@@ -658,7 +662,7 @@ msgstr "بيانات اعتماد العميل"
 #: src/component/account/passcode.vue:116
 #: src/component/account/passcode.vue:131 src/component/account/passcode.vue:16
 #: src/component/account/passcode.vue:23 src/component/account/passcode.vue:10
-#: src/component/dialog/reload.vue:15 src/component/dialog/share.vue:75
+#: src/component/dialog/reload.vue:15 src/component/dialog/share.vue:67
 #: src/component/dialog/webdav.vue:38
 #: src/component/photo/dialog/edit/details.vue:111
 #: src/component/photo/toolbar.vue:240 src/component/photo/viewer.vue:43
@@ -760,7 +764,7 @@ msgstr "نسخ إلى الحافظة"
 msgid "Copy"
 msgstr "ينسخ"
 
-#: src/component/photo/dialog/edit/details.vue:478
+#: src/component/photo/dialog/edit/details.vue:497
 msgid "Copyright"
 msgstr "حقوق النشر"
 
@@ -768,7 +772,7 @@ msgstr "حقوق النشر"
 msgid "Couldn't find anything."
 msgstr "لا يمكن العثور على أي شيء."
 
-#: src/component/photo/dialog/edit/details.vue:238
+#: src/component/photo/dialog/edit/details.vue:219
 #: src/component/photo/toolbar.vue:280 src/page/settings/account.vue:630
 msgid "Country"
 msgstr "دولة"
@@ -825,7 +829,7 @@ msgstr "اليومي"
 msgid "Database Backups"
 msgstr "النسخ الاحتياطية لقاعدة البيانات"
 
-#: src/component/photo/dialog/edit/details.vue:110
+#: src/component/photo/dialog/edit/details.vue:90
 #: src/page/settings/account.vue:501
 msgid "Day"
 msgstr "يوم"
@@ -852,7 +856,7 @@ msgstr "المجلد الإفتراضى"
 
 #: src/dialog/admin/sessions/remove.vue:12 src/dialog/admin/users/remove.vue:12
 #: src/component/album/clipboard.vue:95
-#: src/component/album/dialog/delete.vue:12 src/component/dialog/share.vue:200
+#: src/component/album/dialog/delete.vue:12 src/component/dialog/share.vue:177
 #: src/component/file/dialog/delete.vue:12 src/component/label/clipboard.vue:58
 #: src/component/label/dialog/delete.vue:12
 #: src/component/photo/clipboard.vue:168
@@ -873,7 +877,6 @@ msgid "Delete orphaned index entries, sidecar files and thumbnails."
 msgstr "حذف إدخالات الفهرس المعزولة والملفات الجانبية والصور المصغرة."
 
 #: src/component/album/dialog/edit.vue:112
-#: src/component/photo/dialog/edit/details.vue:536
 #: src/component/photo/view/cards.vue:455 src/page/albums.vue:456
 msgid "Description"
 msgstr "وصف"
@@ -1168,11 +1171,11 @@ msgstr "الميزات التجريبية"
 msgid "Expires"
 msgstr "تنتهي"
 
-#: src/component/photo/dialog/edit/details.vue:376
+#: src/component/photo/dialog/edit/details.vue:358
 msgid "Exposure"
 msgstr "التعرض"
 
-#: src/component/photo/dialog/edit/details.vue:420
+#: src/component/photo/dialog/edit/details.vue:402
 msgid "F Number"
 msgstr "رقم F"
 
@@ -1274,14 +1277,14 @@ msgstr "الملفات ذات الأسماء المتسلسلة مثل \"IMG_123
 msgid "First page"
 msgstr "الصفحة الاولى"
 
-#: src/component/photo/dialog/edit/details.vue:438
+#: src/component/photo/dialog/edit/details.vue:420
 msgid "Focal Length"
 msgstr "البعد البؤري"
 
 #: src/component/photo/dialog/edit/info.vue:29
 #: src/component/service/dialog/edit.vue:264
 #: src/component/service/dialog/edit.vue:270
-#: src/component/service/dialog/upload.vue:103 src/model/folder.js:199
+#: src/component/service/dialog/upload.vue:90 src/model/folder.js:199
 #: src/page/library/browse.vue:62
 msgid "Folder"
 msgstr "مجلد"
@@ -1549,7 +1552,7 @@ msgstr "حد حجم JPEG: %{n} بكسل"
 msgid "JPEGs and thumbnails are automatically rendered as needed."
 msgstr "يتم تقديم ملفات JPEG والصور المصغرة تلقائيًا حسب الحاجة."
 
-#: src/component/photo/dialog/edit/details.vue:557
+#: src/component/photo/dialog/edit/details.vue:559
 msgid "Keywords"
 msgstr "الكلمات الدالة"
 
@@ -1596,7 +1599,7 @@ msgstr "آخر مزامنة"
 msgid "Last Used"
 msgstr "آخر أستخدام"
 
-#: src/component/photo/dialog/edit/details.vue:288
+#: src/component/photo/dialog/edit/details.vue:270
 #: src/component/photo/dialog/edit/info.vue:153
 msgid "Latitude"
 msgstr "خط العرض"
@@ -1616,7 +1619,7 @@ msgstr "اعرف المزيد"
 msgid "Legal Information"
 msgstr "المعلومات القانونية"
 
-#: src/component/photo/dialog/edit/details.vue:394
+#: src/component/photo/dialog/edit/details.vue:376
 #: src/component/photo/view/cards.vue:521
 msgid "Lens"
 msgstr "عدسة"
@@ -1629,7 +1632,7 @@ msgstr "مكتبة"
 
 #: src/app/routes.js:66 src/component/navigation.vue:382
 #: src/component/navigation.vue:380 src/component/navigation.vue:34
-#: src/component/photo/dialog/edit/details.vue:499 src/page/about/license.vue:4
+#: src/component/photo/dialog/edit/details.vue:538 src/page/about/license.vue:4
 msgid "License"
 msgstr "رخصة"
 
@@ -1683,7 +1686,7 @@ msgstr "تحميل..."
 msgid "Local"
 msgstr "محلي"
 
-#: src/component/photo/dialog/edit/details.vue:185 src/options/options.js:35
+#: src/component/photo/dialog/edit/details.vue:167 src/options/options.js:35
 msgid "Local Time"
 msgstr "الوقت المحلي"
 
@@ -1716,7 +1719,7 @@ msgstr "تسجيل خروج"
 msgid "Logs"
 msgstr "السجلات"
 
-#: src/component/photo/dialog/edit/details.vue:312
+#: src/component/photo/dialog/edit/details.vue:294
 #: src/component/photo/dialog/edit/info.vue:161
 msgid "Longitude"
 msgstr "خط الطول"
@@ -1809,7 +1812,7 @@ msgstr "لحظات"
 msgid "Monochrome"
 msgstr "أحادي اللون"
 
-#: src/component/photo/dialog/edit/details.vue:137
+#: src/component/photo/dialog/edit/details.vue:117
 #: src/component/photo/toolbar.vue:414 src/page/settings/account.vue:527
 msgid "Month"
 msgstr "شهر"
@@ -1992,7 +1995,7 @@ msgstr "ملحوظة:"
 msgid "Note: Only WebDAV servers, like Nextcloud or PhotoPrism, can be configured as remote service for backup and file upload."
 msgstr "ملاحظة: يمكن تكوين خوادم WebDAV فقط ، مثل Nextcloud أو PhotoPrism ، كخدمة عن بُعد للنسخ الاحتياطي وتحميل الملفات."
 
-#: src/component/photo/dialog/edit/details.vue:578
+#: src/component/photo/dialog/edit/details.vue:580
 msgid "Notes"
 msgstr "ملحوظات"
 
@@ -2146,7 +2149,7 @@ msgstr "تم تغيير كلمة السر"
 msgid "People"
 msgstr "الناس"
 
-#: src/component/dialog/share.vue:64
+#: src/component/dialog/share.vue:56
 msgid "People you share a link with will be able to view public contents."
 msgstr "سيتمكن الأشخاص الذين تشارك الرابط معهم من عرض المحتويات العامة."
 
@@ -2486,7 +2489,7 @@ msgid "Satellite"
 msgstr "الأقمار الصناعية"
 
 #: src/dialog/admin/users/edit.vue:98 src/component/account/password.vue:31
-#: src/component/album/dialog/edit.vue:42 src/component/dialog/share.vue:52
+#: src/component/album/dialog/edit.vue:42 src/component/dialog/share.vue:45
 #: src/component/label/dialog/edit.vue:26
 #: src/component/people/dialog/edit.vue:27
 #: src/component/service/dialog/edit.vue:107
@@ -2525,7 +2528,7 @@ msgstr "البحث عن الصور وعرضها على الخريطة."
 msgid "Season"
 msgstr "الموسم"
 
-#: src/component/dialog/share.vue:181
+#: src/component/dialog/share.vue:160
 msgid "Secret"
 msgstr "سر"
 
@@ -2607,7 +2610,7 @@ msgid "Settings saved"
 msgstr "تم حفظ الإعدادات"
 
 #: src/component/account/passcode.vue:30 src/component/account/passcode.vue:19
-#: src/component/service/dialog/upload.vue:25
+#: src/component/service/dialog/upload.vue:24
 msgid "Setup"
 msgstr "اقامة"
 
@@ -2762,7 +2765,7 @@ msgstr "تخزين"
 msgid "Streets"
 msgstr "الشوارع"
 
-#: src/component/photo/dialog/edit/details.vue:518 src/model/subject.js:158
+#: src/component/photo/dialog/edit/details.vue:476 src/model/subject.js:158
 msgid "Subject"
 msgstr "موضوعات"
 
@@ -2846,11 +2849,11 @@ msgstr "سمة"
 msgid "This mounts the originals folder as a network drive and allows you to open, edit, and delete files from your computer or smartphone as if they were local."
 msgstr "يعمل هذا على تثبيت مجلد النسخ الأصلية كمحرك أقراص شبكة ويسمح لك بفتح الملفات وتعديلها وحذفها من جهاز الكمبيوتر أو الهاتف الذكي كما لو كانت محلية."
 
-#: src/component/photo/dialog/edit/details.vue:185
+#: src/component/photo/dialog/edit/details.vue:167
 msgid "Time UTC"
 msgstr "الوقت بالتوقيت العالمي المنسق"
 
-#: src/component/photo/dialog/edit/details.vue:211
+#: src/component/photo/dialog/edit/details.vue:193
 msgid "Time Zone"
 msgstr "وحدة زمنية"
 
@@ -2863,7 +2866,7 @@ msgctxt "Account"
 msgid "Title"
 msgstr "عنوان"
 
-#: src/component/photo/dialog/edit/details.vue:87
+#: src/component/photo/dialog/edit/details.vue:436
 msgctxt "Photo"
 msgid "Title"
 msgstr "عنوان"
@@ -2908,7 +2911,7 @@ msgstr "اليوم"
 msgid "Toggle View"
 msgstr "نظرة قوية"
 
-#: src/component/dialog/share.vue:182
+#: src/component/dialog/share.vue:161
 msgid "Token"
 msgstr "رمز"
 
@@ -3032,7 +3035,7 @@ msgstr "تحديث الآن"
 #: src/component/album/toolbar.vue:210 src/component/dialog/upload.vue:8
 #: src/component/dialog/upload.vue:61 src/component/navigation.vue:1957
 #: src/component/photo/toolbar.vue:194
-#: src/component/service/dialog/upload.vue:28 src/page/albums.vue:129
+#: src/component/service/dialog/upload.vue:27 src/page/albums.vue:129
 #: src/page/library/import.vue:44 src/page/settings/general.vue:232
 #: src/page/settings/services.vue:27
 msgid "Upload"
@@ -3080,7 +3083,7 @@ msgstr "جارٍ الرفع..."
 msgid "Uploads that may contain such images will be rejected automatically."
 msgstr "سيتم رفض التحميلات التي قد تحتوي على مثل هذه الصور تلقائيًا."
 
-#: src/component/dialog/share.vue:131 src/page/settings/account.vue:656
+#: src/component/dialog/share.vue:112 src/page/settings/account.vue:656
 msgid "URL"
 msgstr "URL"
 
@@ -3198,7 +3201,7 @@ msgstr "يمكن لعملاء WebDAV الاتصال بـ PhotoPrism باستخد
 msgid "WebDAV clients, like Microsoft’s Windows Explorer or Apple's Finder, can connect directly to PhotoPrism."
 msgstr "يمكن لعملاء WebDAV، مثل Microsoft Windows Explorer أو Apple's Finder، الاتصال مباشرة بـ PhotoPrism."
 
-#: src/component/dialog/share.vue:72 src/component/service/dialog/upload.vue:4
+#: src/component/dialog/share.vue:64 src/component/service/dialog/upload.vue:5
 msgid "WebDAV Upload"
 msgstr "تحميل WebDAV"
 
@@ -3206,7 +3209,7 @@ msgstr "تحميل WebDAV"
 msgid "White"
 msgstr "أبيض"
 
-#: src/component/photo/dialog/edit/details.vue:163
+#: src/component/photo/dialog/edit/details.vue:144
 #: src/component/photo/toolbar.vue:388 src/page/albums.vue:194
 #: src/page/settings/account.vue:553
 msgid "Year"
