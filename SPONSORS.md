@@ -82,6 +82,8 @@ You are [welcome to contact us](https://www.photoprism.app/contact) for change r
 
 **Andreas Kjeldsberg Pihl** (Patreon, August 2023)
 
+[**Kevin "BentoFox" Gelking**](https://github.com/KevinGelking) (Patreon, December 2024)
+
 ## Infrastructure Sponsors ##
 
 Our project infrastructure is provided by the following companies:
