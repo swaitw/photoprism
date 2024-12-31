@@ -331,7 +331,7 @@ msgstr "لە جیاتی ئەوە، دەتوانیت ڕاستەوخۆ پەڕگە�
 msgid "Altitude"
 msgstr "هێڵی درێژی"
 
-#: src/component/photo/dialog/edit/details.vue:246
+#: src/component/photo/dialog/edit/details.vue:242
 msgid "Altitude (m)"
 msgstr "بەرزی (m)"
 
@@ -422,7 +422,7 @@ msgstr "ئایا دڵنیایت لەوەی دەتەوێت بە هەمیشەیی 
 msgid "Are you sure?"
 msgstr "Piştrastin?"
 
-#: src/component/photo/dialog/edit/details.vue:517
+#: src/component/photo/dialog/edit/details.vue:513
 msgid "Artist"
 msgstr "هونەرمەند"
 
@@ -522,7 +522,7 @@ msgstr "Bi karanîna nermalava û karûbarên ku em pêşkêş dikin, hûn şert
 msgid "Calendar"
 msgstr "ڕۆژمێر"
 
-#: src/component/photo/dialog/edit/details.vue:313
+#: src/component/photo/dialog/edit/details.vue:309
 #: src/component/photo/toolbar.vue:308 src/component/photo/view/cards.vue:510
 #: src/component/photo/view/list.vue:139
 msgid "Camera"
@@ -572,7 +572,7 @@ msgstr "ناتوانێت ئایتمی زیاتر دیاری بکات"
 msgid "Cancel"
 msgstr "هه‌ڵوه‌شاندنه‌وه"
 
-#: src/component/photo/dialog/edit/details.vue:454
+#: src/component/photo/dialog/edit/details.vue:450
 #: src/component/photo/view/cards.vue:455
 msgid "Caption"
 msgstr "Sernivîs"
@@ -761,7 +761,7 @@ msgstr "کۆپی کرایە کلیپ بۆرد"
 msgid "Copy"
 msgstr "Kopî"
 
-#: src/component/photo/dialog/edit/details.vue:497
+#: src/component/photo/dialog/edit/details.vue:493
 msgid "Copyright"
 msgstr "مافی لەبەرگرتنەوە"
 
@@ -769,7 +769,7 @@ msgstr "مافی لەبەرگرتنەوە"
 msgid "Couldn't find anything."
 msgstr "هیچ شتێک نەدۆزرایەوە."
 
-#: src/component/photo/dialog/edit/details.vue:219
+#: src/component/photo/dialog/edit/details.vue:215
 #: src/component/photo/toolbar.vue:280 src/page/settings/account.vue:630
 msgid "Country"
 msgstr "وڵات"
@@ -1167,7 +1167,7 @@ msgstr "تایبەتمەندیە ئەزموونیەکان"
 msgid "Expires"
 msgstr "بەسەرچووەکان"
 
-#: src/component/photo/dialog/edit/details.vue:358
+#: src/component/photo/dialog/edit/details.vue:354
 msgid "Exposure"
 msgstr "دەرخستن"
 
@@ -1175,7 +1175,7 @@ msgstr "دەرخستن"
 msgid "Extract still images and generate thumbnails while indexing."
 msgstr "Wêneyên hêstiran derxînin û di dema îndekskirinê de nîgaran çêkin."
 
-#: src/component/photo/dialog/edit/details.vue:402
+#: src/component/photo/dialog/edit/details.vue:398
 msgid "F Number"
 msgstr "ژمارەی F"
 
@@ -1281,7 +1281,7 @@ msgstr "پەڕگەکان بە ناوی زنجیرەیی وەک 'IMG_1234 (2)' و
 msgid "First page"
 msgstr "Rûpelê yekem"
 
-#: src/component/photo/dialog/edit/details.vue:420
+#: src/component/photo/dialog/edit/details.vue:416
 msgid "Focal Length"
 msgstr "Focal Length"
 
@@ -1560,7 +1560,7 @@ msgstr "سنووری قەبارەی JPEG: %{n}px"
 msgid "JPEGs and thumbnails are automatically rendered as needed."
 msgstr "JPEG و وێنە بچووکەکان بە شێوەیەکی خودکارانە بە پێێ پێویست پیشان دەدرێن."
 
-#: src/component/photo/dialog/edit/details.vue:559
+#: src/component/photo/dialog/edit/details.vue:555
 msgid "Keywords"
 msgstr "کلیلەوشەکان"
 
@@ -1607,7 +1607,7 @@ msgstr "هاوکاتگەری"
 msgid "Last Used"
 msgstr "Last Used"
 
-#: src/component/photo/dialog/edit/details.vue:270
+#: src/component/photo/dialog/edit/details.vue:266
 #: src/component/photo/dialog/edit/info.vue:162
 msgid "Latitude"
 msgstr "هێڵی پانیی"
@@ -1627,7 +1627,7 @@ msgstr "Bêtir hîn bibin"
 msgid "Legal Information"
 msgstr "Agahiyên Hiqûqî"
 
-#: src/component/photo/dialog/edit/details.vue:376
+#: src/component/photo/dialog/edit/details.vue:372
 #: src/component/photo/view/cards.vue:521
 msgid "Lens"
 msgstr "لێنز"
@@ -1640,7 +1640,7 @@ msgstr "کتێبخانە"
 
 #: src/app/routes.js:66 src/component/navigation.vue:382
 #: src/component/navigation.vue:380 src/component/navigation.vue:34
-#: src/component/photo/dialog/edit/details.vue:538 src/page/about/license.vue:4
+#: src/component/photo/dialog/edit/details.vue:534 src/page/about/license.vue:4
 msgid "License"
 msgstr "مۆڵەت"
 
@@ -1727,7 +1727,7 @@ msgstr "چوونە دەرەوە"
 msgid "Logs"
 msgstr "تۆماری لۆگەکان"
 
-#: src/component/photo/dialog/edit/details.vue:294
+#: src/component/photo/dialog/edit/details.vue:290
 #: src/component/photo/dialog/edit/info.vue:170
 msgid "Longitude"
 msgstr "درێژی"
@@ -2003,7 +2003,7 @@ msgstr "تێبینی:"
 msgid "Note: Only WebDAV servers, like Nextcloud or PhotoPrism, can be configured as remote service for backup and file upload."
 msgstr "تێبینی: تەنها ڕەژاکانی WebDAV، وەک Nextcloud یان PhotoPrism، دەتوانرێت وەک خزمەتگوزاریەکی دوور بۆ گەڕانەوەی پاڵپشت (باکئاپ) و دروستکردنی پاڵپشت ساز بکرێت."
 
-#: src/component/photo/dialog/edit/details.vue:580
+#: src/component/photo/dialog/edit/details.vue:576
 msgid "Notes"
 msgstr "تێبینیەکان"
 
@@ -2173,7 +2173,7 @@ msgstr "سڕینەوەی پەڕگەکان بە شێوەیەکی هەمیشەیی
 msgid "Personal"
 msgstr "Şexsî"
 
-#: src/model/photo.js:1247
+#: src/model/photo.js:1243
 msgid "Photo"
 msgstr "وێنە"
 
@@ -2778,7 +2778,7 @@ msgstr "پەڕگەی هەڵگرتن"
 msgid "Streets"
 msgstr "شەقامەکان"
 
-#: src/component/photo/dialog/edit/details.vue:476 src/model/subject.js:158
+#: src/component/photo/dialog/edit/details.vue:472 src/model/subject.js:158
 msgid "Subject"
 msgstr "ناونیشان"
 
@@ -2866,7 +2866,7 @@ msgstr "ئەمە فۆڵدەری ڕەسەنەکان وەک درایڤی ڕایە�
 msgid "Time UTC"
 msgstr "کات UTC"
 
-#: src/component/photo/dialog/edit/details.vue:193
+#: src/component/photo/dialog/edit/details.vue:192
 msgid "Time Zone"
 msgstr "ناوچەی کاتی"
 
@@ -2879,7 +2879,7 @@ msgctxt "Account"
 msgid "Title"
 msgstr "ناونیشان"
 
-#: src/component/photo/dialog/edit/details.vue:436
+#: src/component/photo/dialog/edit/details.vue:432
 msgctxt "Photo"
 msgid "Title"
 msgstr "ناونیشان"
@@ -2978,8 +2978,8 @@ msgstr "IDـی بێ هاوتا"
 #: src/component/photo/dialog/edit/details.vue:23
 #: src/component/photo/dialog/edit/info.vue:28 src/model/album.js:179
 #: src/model/photo.js:362 src/model/photo.js:801 src/model/photo.js:822
-#: src/model/photo.js:845 src/model/photo.js:863 src/model/photo.js:1004
-#: src/model/photo.js:1049 src/model/photo.js:1062 src/model/user.js:155
+#: src/model/photo.js:845 src/model/photo.js:863 src/model/photo.js:1000
+#: src/model/photo.js:1045 src/model/photo.js:1058 src/model/user.js:155
 #: src/options/options.js:44 src/options/options.js:58
 #: src/options/options.js:75 src/options/options.js:89
 #: src/options/options.js:101 src/page/library/errors.vue:183
@@ -3156,7 +3156,7 @@ msgstr "Koda verastkirinê"
 #: src/component/photo/view/cards.vue:328
 #: src/component/photo/view/cards.vue:475 src/component/photo/view/list.vue:210
 #: src/component/photo/view/mosaic.vue:199 src/model/file.js:216
-#: src/model/photo.js:932 src/model/photo.js:950 src/options/options.js:366
+#: src/model/photo.js:932 src/model/photo.js:956 src/options/options.js:366
 msgid "Video"
 msgstr "ڤیدیۆ"
 

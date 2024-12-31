@@ -331,7 +331,7 @@ msgstr "或者，你也可以上传文件到类似 NextCloud 的 WebDAV 服务�
 msgid "Altitude"
 msgstr "海拔"
 
-#: src/component/photo/dialog/edit/details.vue:246
+#: src/component/photo/dialog/edit/details.vue:242
 msgid "Altitude (m)"
 msgstr "海拔（米）"
 
@@ -422,7 +422,7 @@ msgstr "你确定要永久的删除这个文件吗？"
 msgid "Are you sure?"
 msgstr "你确定？"
 
-#: src/component/photo/dialog/edit/details.vue:517
+#: src/component/photo/dialog/edit/details.vue:513
 msgid "Artist"
 msgstr "艺术家"
 
@@ -522,7 +522,7 @@ msgstr "通过使用我们提供的软件和服务，您同意我们的服务条
 msgid "Calendar"
 msgstr "日历"
 
-#: src/component/photo/dialog/edit/details.vue:313
+#: src/component/photo/dialog/edit/details.vue:309
 #: src/component/photo/toolbar.vue:308 src/component/photo/view/cards.vue:510
 #: src/component/photo/view/list.vue:139
 msgid "Camera"
@@ -572,7 +572,7 @@ msgstr "无法选择更多项目"
 msgid "Cancel"
 msgstr "取消"
 
-#: src/component/photo/dialog/edit/details.vue:454
+#: src/component/photo/dialog/edit/details.vue:450
 #: src/component/photo/view/cards.vue:455
 msgid "Caption"
 msgstr "标题"
@@ -761,7 +761,7 @@ msgstr "已复制到剪贴板"
 msgid "Copy"
 msgstr "复制"
 
-#: src/component/photo/dialog/edit/details.vue:497
+#: src/component/photo/dialog/edit/details.vue:493
 msgid "Copyright"
 msgstr "版权"
 
@@ -769,7 +769,7 @@ msgstr "版权"
 msgid "Couldn't find anything."
 msgstr "找不到任何东西。"
 
-#: src/component/photo/dialog/edit/details.vue:219
+#: src/component/photo/dialog/edit/details.vue:215
 #: src/component/photo/toolbar.vue:280 src/page/settings/account.vue:630
 msgid "Country"
 msgstr "国家"
@@ -1167,7 +1167,7 @@ msgstr "实验特性"
 msgid "Expires"
 msgstr "时限"
 
-#: src/component/photo/dialog/edit/details.vue:358
+#: src/component/photo/dialog/edit/details.vue:354
 msgid "Exposure"
 msgstr "曝光度"
 
@@ -1175,7 +1175,7 @@ msgstr "曝光度"
 msgid "Extract still images and generate thumbnails while indexing."
 msgstr "提取静态图像并在编制索引时生成缩略图。"
 
-#: src/component/photo/dialog/edit/details.vue:402
+#: src/component/photo/dialog/edit/details.vue:398
 msgid "F Number"
 msgstr "光圈数"
 
@@ -1281,7 +1281,7 @@ msgstr "顺序名称的文件如“IMG_1234 (2)”和“IMG_1234 (3)”的文件
 msgid "First page"
 msgstr "第一页"
 
-#: src/component/photo/dialog/edit/details.vue:420
+#: src/component/photo/dialog/edit/details.vue:416
 msgid "Focal Length"
 msgstr "焦距"
 
@@ -1560,7 +1560,7 @@ msgstr "JPEG 尺寸限制：%{n}px"
 msgid "JPEGs and thumbnails are automatically rendered as needed."
 msgstr "系统会根据需要自动生成缩略图及JPEG格式的预览图。"
 
-#: src/component/photo/dialog/edit/details.vue:559
+#: src/component/photo/dialog/edit/details.vue:555
 msgid "Keywords"
 msgstr "关键字"
 
@@ -1607,7 +1607,7 @@ msgstr "上次同步"
 msgid "Last Used"
 msgstr "最后使用"
 
-#: src/component/photo/dialog/edit/details.vue:270
+#: src/component/photo/dialog/edit/details.vue:266
 #: src/component/photo/dialog/edit/info.vue:162
 msgid "Latitude"
 msgstr "纬度"
@@ -1627,7 +1627,7 @@ msgstr "进一步了解"
 msgid "Legal Information"
 msgstr "法律信息"
 
-#: src/component/photo/dialog/edit/details.vue:376
+#: src/component/photo/dialog/edit/details.vue:372
 #: src/component/photo/view/cards.vue:521
 msgid "Lens"
 msgstr "镜头"
@@ -1640,7 +1640,7 @@ msgstr "资料库"
 
 #: src/app/routes.js:66 src/component/navigation.vue:382
 #: src/component/navigation.vue:380 src/component/navigation.vue:34
-#: src/component/photo/dialog/edit/details.vue:538 src/page/about/license.vue:4
+#: src/component/photo/dialog/edit/details.vue:534 src/page/about/license.vue:4
 msgid "License"
 msgstr "许可证"
 
@@ -1727,7 +1727,7 @@ msgstr "登出"
 msgid "Logs"
 msgstr "日志"
 
-#: src/component/photo/dialog/edit/details.vue:294
+#: src/component/photo/dialog/edit/details.vue:290
 #: src/component/photo/dialog/edit/info.vue:170
 msgid "Longitude"
 msgstr "经度"
@@ -2003,7 +2003,7 @@ msgstr "注意："
 msgid "Note: Only WebDAV servers, like Nextcloud or PhotoPrism, can be configured as remote service for backup and file upload."
 msgstr "注意：只能将 WebDAV 服务器（如 Nextcloud 或 PhotoPrism）配置为远程服务，以进行备份和文件上传。"
 
-#: src/component/photo/dialog/edit/details.vue:580
+#: src/component/photo/dialog/edit/details.vue:576
 msgid "Notes"
 msgstr "备注"
 
@@ -2174,7 +2174,7 @@ msgstr "永久删除文件以释放存储空间。"
 msgid "Personal"
 msgstr "个人"
 
-#: src/model/photo.js:1247
+#: src/model/photo.js:1243
 msgid "Photo"
 msgstr "相片"
 
@@ -2780,7 +2780,7 @@ msgstr "存储"
 msgid "Streets"
 msgstr "街道图"
 
-#: src/component/photo/dialog/edit/details.vue:476 src/model/subject.js:158
+#: src/component/photo/dialog/edit/details.vue:472 src/model/subject.js:158
 msgid "Subject"
 msgstr "主题"
 
@@ -2868,7 +2868,7 @@ msgstr "这会将源文件夹安装为网络驱动器，并允许您从计算机
 msgid "Time UTC"
 msgstr "UTC 时间"
 
-#: src/component/photo/dialog/edit/details.vue:193
+#: src/component/photo/dialog/edit/details.vue:192
 msgid "Time Zone"
 msgstr "时区"
 
@@ -2881,7 +2881,7 @@ msgctxt "Account"
 msgid "Title"
 msgstr "标题"
 
-#: src/component/photo/dialog/edit/details.vue:436
+#: src/component/photo/dialog/edit/details.vue:432
 msgctxt "Photo"
 msgid "Title"
 msgstr "标题"
@@ -2980,8 +2980,8 @@ msgstr "唯一标识符"
 #: src/component/photo/dialog/edit/details.vue:23
 #: src/component/photo/dialog/edit/info.vue:28 src/model/album.js:179
 #: src/model/photo.js:362 src/model/photo.js:801 src/model/photo.js:822
-#: src/model/photo.js:845 src/model/photo.js:863 src/model/photo.js:1004
-#: src/model/photo.js:1049 src/model/photo.js:1062 src/model/user.js:155
+#: src/model/photo.js:845 src/model/photo.js:863 src/model/photo.js:1000
+#: src/model/photo.js:1045 src/model/photo.js:1058 src/model/user.js:155
 #: src/options/options.js:44 src/options/options.js:58
 #: src/options/options.js:75 src/options/options.js:89
 #: src/options/options.js:101 src/page/library/errors.vue:183
@@ -3158,7 +3158,7 @@ msgstr "验证码"
 #: src/component/photo/view/cards.vue:328
 #: src/component/photo/view/cards.vue:475 src/component/photo/view/list.vue:210
 #: src/component/photo/view/mosaic.vue:199 src/model/file.js:216
-#: src/model/photo.js:932 src/model/photo.js:950 src/options/options.js:366
+#: src/model/photo.js:932 src/model/photo.js:956 src/options/options.js:366
 msgid "Video"
 msgstr "视频"
 

@@ -331,7 +331,7 @@ msgstr "Alternativamente, puoi caricare i file direttamente a server WebDAV come
 msgid "Altitude"
 msgstr "Altitudine"
 
-#: src/component/photo/dialog/edit/details.vue:246
+#: src/component/photo/dialog/edit/details.vue:242
 msgid "Altitude (m)"
 msgstr "Altitudine (m)"
 
@@ -422,7 +422,7 @@ msgstr "Vuoi veramente eliminare in modo permanente questi file?"
 msgid "Are you sure?"
 msgstr "Sei sicuro?"
 
-#: src/component/photo/dialog/edit/details.vue:517
+#: src/component/photo/dialog/edit/details.vue:513
 msgid "Artist"
 msgstr "Artista"
 
@@ -522,7 +522,7 @@ msgstr "Utilizzando il software e i servizi, accetti i nostri temini di servizio
 msgid "Calendar"
 msgstr "Calendario"
 
-#: src/component/photo/dialog/edit/details.vue:313
+#: src/component/photo/dialog/edit/details.vue:309
 #: src/component/photo/toolbar.vue:308 src/component/photo/view/cards.vue:510
 #: src/component/photo/view/list.vue:139
 msgid "Camera"
@@ -572,7 +572,7 @@ msgstr "Impossibile selezionare ulteriori elementi"
 msgid "Cancel"
 msgstr "Annulla"
 
-#: src/component/photo/dialog/edit/details.vue:454
+#: src/component/photo/dialog/edit/details.vue:450
 #: src/component/photo/view/cards.vue:455
 msgid "Caption"
 msgstr "Didascalia"
@@ -761,7 +761,7 @@ msgstr "Copiato negli appunti"
 msgid "Copy"
 msgstr "Copia"
 
-#: src/component/photo/dialog/edit/details.vue:497
+#: src/component/photo/dialog/edit/details.vue:493
 msgid "Copyright"
 msgstr "Copyright"
 
@@ -769,7 +769,7 @@ msgstr "Copyright"
 msgid "Couldn't find anything."
 msgstr "Impossibile trovare alcunché."
 
-#: src/component/photo/dialog/edit/details.vue:219
+#: src/component/photo/dialog/edit/details.vue:215
 #: src/component/photo/toolbar.vue:280 src/page/settings/account.vue:630
 msgid "Country"
 msgstr "Nazione"
@@ -1167,7 +1167,7 @@ msgstr "Funzionalità Sperimentali"
 msgid "Expires"
 msgstr "Scade"
 
-#: src/component/photo/dialog/edit/details.vue:358
+#: src/component/photo/dialog/edit/details.vue:354
 msgid "Exposure"
 msgstr "Esposizione"
 
@@ -1175,7 +1175,7 @@ msgstr "Esposizione"
 msgid "Extract still images and generate thumbnails while indexing."
 msgstr "Estrai le immagini fisse e genera miniature durante l'indicizzazione."
 
-#: src/component/photo/dialog/edit/details.vue:402
+#: src/component/photo/dialog/edit/details.vue:398
 msgid "F Number"
 msgstr "Numero F"
 
@@ -1281,7 +1281,7 @@ msgstr "File con un nome sequenziale come 'IMG_1234 (2)' e 'IMG_1234 (3)' appart
 msgid "First page"
 msgstr "Prima pagina"
 
-#: src/component/photo/dialog/edit/details.vue:420
+#: src/component/photo/dialog/edit/details.vue:416
 msgid "Focal Length"
 msgstr "Lunghezza Focale"
 
@@ -1560,7 +1560,7 @@ msgstr "Limite Dimensione JPEG: %{n}px"
 msgid "JPEGs and thumbnails are automatically rendered as needed."
 msgstr "I JPEG e le miniature sono renderizzati automaticamente a seconda delle necessità."
 
-#: src/component/photo/dialog/edit/details.vue:559
+#: src/component/photo/dialog/edit/details.vue:555
 msgid "Keywords"
 msgstr "Parole chiave"
 
@@ -1607,7 +1607,7 @@ msgstr "Ultima sincronizzazione"
 msgid "Last Used"
 msgstr "Ultimo utilizzo"
 
-#: src/component/photo/dialog/edit/details.vue:270
+#: src/component/photo/dialog/edit/details.vue:266
 #: src/component/photo/dialog/edit/info.vue:162
 msgid "Latitude"
 msgstr "Latitudine"
@@ -1627,7 +1627,7 @@ msgstr "Scopri di più"
 msgid "Legal Information"
 msgstr "Informazioni legali"
 
-#: src/component/photo/dialog/edit/details.vue:376
+#: src/component/photo/dialog/edit/details.vue:372
 #: src/component/photo/view/cards.vue:521
 msgid "Lens"
 msgstr "Lenti"
@@ -1640,7 +1640,7 @@ msgstr "Libreria"
 
 #: src/app/routes.js:66 src/component/navigation.vue:382
 #: src/component/navigation.vue:380 src/component/navigation.vue:34
-#: src/component/photo/dialog/edit/details.vue:538 src/page/about/license.vue:4
+#: src/component/photo/dialog/edit/details.vue:534 src/page/about/license.vue:4
 msgid "License"
 msgstr "Licenza"
 
@@ -1727,7 +1727,7 @@ msgstr "Esci"
 msgid "Logs"
 msgstr "Log"
 
-#: src/component/photo/dialog/edit/details.vue:294
+#: src/component/photo/dialog/edit/details.vue:290
 #: src/component/photo/dialog/edit/info.vue:170
 msgid "Longitude"
 msgstr "Longitudine"
@@ -2003,7 +2003,7 @@ msgstr "Nota:"
 msgid "Note: Only WebDAV servers, like Nextcloud or PhotoPrism, can be configured as remote service for backup and file upload."
 msgstr "Nota: solo i server WebDAV, come Nextcloud o PhotoPrism, possono essere configurati come servizio remoto per il backup e il caricamento dei file."
 
-#: src/component/photo/dialog/edit/details.vue:580
+#: src/component/photo/dialog/edit/details.vue:576
 msgid "Notes"
 msgstr "Note"
 
@@ -2173,7 +2173,7 @@ msgstr "Elimina permanentemente i file per liberare spazio."
 msgid "Personal"
 msgstr "Personale"
 
-#: src/model/photo.js:1247
+#: src/model/photo.js:1243
 msgid "Photo"
 msgstr "Foto"
 
@@ -2778,7 +2778,7 @@ msgstr "Spazio d’archiviazione"
 msgid "Streets"
 msgstr "Strade"
 
-#: src/component/photo/dialog/edit/details.vue:476 src/model/subject.js:158
+#: src/component/photo/dialog/edit/details.vue:472 src/model/subject.js:158
 msgid "Subject"
 msgstr "Oggetto"
 
@@ -2866,7 +2866,7 @@ msgstr "Questo monta la cartella degli originali come un'unità di rete e ti per
 msgid "Time UTC"
 msgstr "Orario UTC"
 
-#: src/component/photo/dialog/edit/details.vue:193
+#: src/component/photo/dialog/edit/details.vue:192
 msgid "Time Zone"
 msgstr "Fuso Orario"
 
@@ -2879,7 +2879,7 @@ msgctxt "Account"
 msgid "Title"
 msgstr "Titolo"
 
-#: src/component/photo/dialog/edit/details.vue:436
+#: src/component/photo/dialog/edit/details.vue:432
 msgctxt "Photo"
 msgid "Title"
 msgstr "Titolo"
@@ -2978,8 +2978,8 @@ msgstr "ID Unico"
 #: src/component/photo/dialog/edit/details.vue:23
 #: src/component/photo/dialog/edit/info.vue:28 src/model/album.js:179
 #: src/model/photo.js:362 src/model/photo.js:801 src/model/photo.js:822
-#: src/model/photo.js:845 src/model/photo.js:863 src/model/photo.js:1004
-#: src/model/photo.js:1049 src/model/photo.js:1062 src/model/user.js:155
+#: src/model/photo.js:845 src/model/photo.js:863 src/model/photo.js:1000
+#: src/model/photo.js:1045 src/model/photo.js:1058 src/model/user.js:155
 #: src/options/options.js:44 src/options/options.js:58
 #: src/options/options.js:75 src/options/options.js:89
 #: src/options/options.js:101 src/page/library/errors.vue:183
@@ -3156,7 +3156,7 @@ msgstr "Codice di verifica"
 #: src/component/photo/view/cards.vue:328
 #: src/component/photo/view/cards.vue:475 src/component/photo/view/list.vue:210
 #: src/component/photo/view/mosaic.vue:199 src/model/file.js:216
-#: src/model/photo.js:932 src/model/photo.js:950 src/options/options.js:366
+#: src/model/photo.js:932 src/model/photo.js:956 src/options/options.js:366
 msgid "Video"
 msgstr "Video"
 

@@ -331,7 +331,7 @@ msgstr "Sebagai kemungkinan lain, Anda dapat mengunggah berkas langsung ke WebDA
 msgid "Altitude"
 msgstr "Ketinggian"
 
-#: src/component/photo/dialog/edit/details.vue:246
+#: src/component/photo/dialog/edit/details.vue:242
 msgid "Altitude (m)"
 msgstr "Ketinggian (m)"
 
@@ -422,7 +422,7 @@ msgstr "Apakah Anda yakin untuk menghapus berkas ini secara permanen?"
 msgid "Are you sure?"
 msgstr "Apakah Anda yakin?"
 
-#: src/component/photo/dialog/edit/details.vue:517
+#: src/component/photo/dialog/edit/details.vue:513
 msgid "Artist"
 msgstr "Artis"
 
@@ -522,7 +522,7 @@ msgstr "Dengan menggunakan perangkat lunak dan layanan yang kami sediakan, Anda 
 msgid "Calendar"
 msgstr "Kalender"
 
-#: src/component/photo/dialog/edit/details.vue:313
+#: src/component/photo/dialog/edit/details.vue:309
 #: src/component/photo/toolbar.vue:308 src/component/photo/view/cards.vue:510
 #: src/component/photo/view/list.vue:139
 msgid "Camera"
@@ -572,7 +572,7 @@ msgstr "Tidak dapat memilih item lainnya"
 msgid "Cancel"
 msgstr "Batal"
 
-#: src/component/photo/dialog/edit/details.vue:454
+#: src/component/photo/dialog/edit/details.vue:450
 #: src/component/photo/view/cards.vue:455
 msgid "Caption"
 msgstr "Keterangan"
@@ -761,7 +761,7 @@ msgstr "Disalin ke papan klip"
 msgid "Copy"
 msgstr "Menyalin"
 
-#: src/component/photo/dialog/edit/details.vue:497
+#: src/component/photo/dialog/edit/details.vue:493
 msgid "Copyright"
 msgstr "Hak Cipta"
 
@@ -769,7 +769,7 @@ msgstr "Hak Cipta"
 msgid "Couldn't find anything."
 msgstr "Tidak dapat menemukan apa pun."
 
-#: src/component/photo/dialog/edit/details.vue:219
+#: src/component/photo/dialog/edit/details.vue:215
 #: src/component/photo/toolbar.vue:280 src/page/settings/account.vue:630
 msgid "Country"
 msgstr "Negara"
@@ -1167,7 +1167,7 @@ msgstr "Fitur Eksperimental"
 msgid "Expires"
 msgstr "Kedaluwarsa"
 
-#: src/component/photo/dialog/edit/details.vue:358
+#: src/component/photo/dialog/edit/details.vue:354
 msgid "Exposure"
 msgstr "Eksposur"
 
@@ -1175,7 +1175,7 @@ msgstr "Eksposur"
 msgid "Extract still images and generate thumbnails while indexing."
 msgstr "Mengekstrak gambar diam dan menghasilkan gambar mini sewaktu mengindeks."
 
-#: src/component/photo/dialog/edit/details.vue:402
+#: src/component/photo/dialog/edit/details.vue:398
 msgid "F Number"
 msgstr "Nilai F"
 
@@ -1281,7 +1281,7 @@ msgstr "File dengan nama berurutan seperti 'IMG_1234 (2)' dan 'IMG_1234 (3)' mil
 msgid "First page"
 msgstr "Halaman pertama"
 
-#: src/component/photo/dialog/edit/details.vue:420
+#: src/component/photo/dialog/edit/details.vue:416
 msgid "Focal Length"
 msgstr "Panjang Fokus"
 
@@ -1560,7 +1560,7 @@ msgstr "Batas Ukuran JPEG: %{n}px"
 msgid "JPEGs and thumbnails are automatically rendered as needed."
 msgstr "JPEG dan thumbnail secara otomatis dirender sesuai dengan kebutuhan."
 
-#: src/component/photo/dialog/edit/details.vue:559
+#: src/component/photo/dialog/edit/details.vue:555
 msgid "Keywords"
 msgstr "Kata kunci"
 
@@ -1607,7 +1607,7 @@ msgstr "Sinkronisasi Terakhir"
 msgid "Last Used"
 msgstr "Terakhir digunakan"
 
-#: src/component/photo/dialog/edit/details.vue:270
+#: src/component/photo/dialog/edit/details.vue:266
 #: src/component/photo/dialog/edit/info.vue:162
 msgid "Latitude"
 msgstr "Lintang"
@@ -1627,7 +1627,7 @@ msgstr "Pelajari lebih lanjut"
 msgid "Legal Information"
 msgstr "Informasi Hukum"
 
-#: src/component/photo/dialog/edit/details.vue:376
+#: src/component/photo/dialog/edit/details.vue:372
 #: src/component/photo/view/cards.vue:521
 msgid "Lens"
 msgstr "Lensa"
@@ -1640,7 +1640,7 @@ msgstr "Perpustakaan"
 
 #: src/app/routes.js:66 src/component/navigation.vue:382
 #: src/component/navigation.vue:380 src/component/navigation.vue:34
-#: src/component/photo/dialog/edit/details.vue:538 src/page/about/license.vue:4
+#: src/component/photo/dialog/edit/details.vue:534 src/page/about/license.vue:4
 msgid "License"
 msgstr "Lisensi"
 
@@ -1727,7 +1727,7 @@ msgstr "Keluar"
 msgid "Logs"
 msgstr "Log"
 
-#: src/component/photo/dialog/edit/details.vue:294
+#: src/component/photo/dialog/edit/details.vue:290
 #: src/component/photo/dialog/edit/info.vue:170
 msgid "Longitude"
 msgstr "Bujur"
@@ -2003,7 +2003,7 @@ msgstr "Catatan:"
 msgid "Note: Only WebDAV servers, like Nextcloud or PhotoPrism, can be configured as remote service for backup and file upload."
 msgstr "Catatan: Hanya server WebDAV, seperti Nextcloud atau PhotoPrism, yang dapat dikonfigurasi sebagai layanan jarak jauh untuk pencadangan dan pengunggahan file."
 
-#: src/component/photo/dialog/edit/details.vue:580
+#: src/component/photo/dialog/edit/details.vue:576
 msgid "Notes"
 msgstr "Catatan"
 
@@ -2173,7 +2173,7 @@ msgstr "Hapus file secara permanen untuk mengosongkan penyimpanan."
 msgid "Personal"
 msgstr "Pribadi"
 
-#: src/model/photo.js:1247
+#: src/model/photo.js:1243
 msgid "Photo"
 msgstr "Foto"
 
@@ -2778,7 +2778,7 @@ msgstr "Penyimpanan"
 msgid "Streets"
 msgstr "Jalan"
 
-#: src/component/photo/dialog/edit/details.vue:476 src/model/subject.js:158
+#: src/component/photo/dialog/edit/details.vue:472 src/model/subject.js:158
 msgid "Subject"
 msgstr "Subjek"
 
@@ -2866,7 +2866,7 @@ msgstr "Ini memasang folder asli sebagai drive tersambung dan memungkinkan Anda 
 msgid "Time UTC"
 msgstr "Waktu UTC"
 
-#: src/component/photo/dialog/edit/details.vue:193
+#: src/component/photo/dialog/edit/details.vue:192
 msgid "Time Zone"
 msgstr "Zona Waktu"
 
@@ -2879,7 +2879,7 @@ msgctxt "Account"
 msgid "Title"
 msgstr "Judul"
 
-#: src/component/photo/dialog/edit/details.vue:436
+#: src/component/photo/dialog/edit/details.vue:432
 msgctxt "Photo"
 msgid "Title"
 msgstr "Judul"
@@ -2978,8 +2978,8 @@ msgstr "ID Unik"
 #: src/component/photo/dialog/edit/details.vue:23
 #: src/component/photo/dialog/edit/info.vue:28 src/model/album.js:179
 #: src/model/photo.js:362 src/model/photo.js:801 src/model/photo.js:822
-#: src/model/photo.js:845 src/model/photo.js:863 src/model/photo.js:1004
-#: src/model/photo.js:1049 src/model/photo.js:1062 src/model/user.js:155
+#: src/model/photo.js:845 src/model/photo.js:863 src/model/photo.js:1000
+#: src/model/photo.js:1045 src/model/photo.js:1058 src/model/user.js:155
 #: src/options/options.js:44 src/options/options.js:58
 #: src/options/options.js:75 src/options/options.js:89
 #: src/options/options.js:101 src/page/library/errors.vue:183
@@ -3156,7 +3156,7 @@ msgstr "Kode verifikasi"
 #: src/component/photo/view/cards.vue:328
 #: src/component/photo/view/cards.vue:475 src/component/photo/view/list.vue:210
 #: src/component/photo/view/mosaic.vue:199 src/model/file.js:216
-#: src/model/photo.js:932 src/model/photo.js:950 src/options/options.js:366
+#: src/model/photo.js:932 src/model/photo.js:956 src/options/options.js:366
 msgid "Video"
 msgstr "Video"
 
