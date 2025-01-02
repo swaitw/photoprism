@@ -109,11 +109,7 @@ func Start(ctx context.Context, conf *config.Config) {
 		var err error
 
 		// Clean up Unix Domain Socket file if it exists
-		if err := os.Remove(unixSocket); err != nil && !os.IsNotExist(err) {
-			log.Warnf("server: failed to remove existing unix socket file %s: %v", unixSocket, err)
-		} else {
-			log.Debugf("server: cleaned up existing unix socket file %s", unixSocket)
-		}
+		cleanupSocket(unixSocket)
 
 		if unixAddr, err = net.ResolveUnixAddr("unix", unixSocket); err != nil {
 			log.Errorf("server: invalid unix socket (%s)", err)
@@ -192,11 +188,7 @@ func Start(ctx context.Context, conf *config.Config) {
 
 	// Clean up Unix Domain Socket file if it exists
 	if unixSocket := conf.HttpSocket(); unixSocket != "" {
-		if err := os.Remove(unixSocket); err != nil && !os.IsNotExist(err) {
-			log.Errorf("server: failed to remove unix socket file %s: %v", unixSocket, err)
-		} else {
-			log.Debugf("server: removed unix socket file %s", unixSocket)
-		}
+		cleanupSocket(unixSocket)
 	}
 }
 
@@ -247,4 +239,15 @@ func redirect(w http.ResponseWriter, req *http.Request) {
 	target := "https://" + req.Host + req.RequestURI
 
 	http.Redirect(w, req, target, httpsRedirect)
+}
+
+// cleanupSocket removes the Unix domain socket file if it exists.
+func cleanupSocket(socketPath string) {
+	if _, err := os.Stat(socketPath); err == nil {
+		if err := os.Remove(socketPath); err != nil {
+			log.Errorf("server: failed to remove unix socket file %s: %v", socketPath, err)
+		} else {
+			log.Debugf("server: removed unix socket file %s", socketPath)
+		}
+	}
 }
