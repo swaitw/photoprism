@@ -29,7 +29,7 @@ func TestMediaFile_Location(t *testing.T) {
 			t.Fatal(err)
 		}
 
-		assert.Equal(t, "姫路市", location.City())
+		assert.Equal(t, "高砂市", location.City())
 		assert.Equal(t, "兵庫県", location.State())
 		assert.Equal(t, "Japan", location.CountryName())
 		assert.Equal(t, "", location.Category())
@@ -44,7 +44,7 @@ func TestMediaFile_Location(t *testing.T) {
 			t.Fatal(err)
 		}
 
-		assert.Equal(t, "姫路市", location2.City())
+		assert.Equal(t, "高砂市", location2.City())
 		assert.Equal(t, "兵庫県", location2.State())
 	})
 	t.Run("iphone_15_pro.heic", func(t *testing.T) {
